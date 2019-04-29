@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: e9b1e6b5dfd4c064b8c1ffc568dbdde5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5896934563114208049
+    second: skeleton spritesheet calciumtrice_0
+  - first:
+      213: 6691148743629961859
+    second: skeleton spritesheet calciumtrice_1
+  - first:
+      213: -4821598470799262181
+    second: skeleton spritesheet calciumtrice_2
+  - first:
+      213: -4127618541010436172
+    second: skeleton spritesheet calciumtrice_3
+  - first:
+      213: 8533548059212628997
+    second: skeleton spritesheet calciumtrice_4
+  - first:
+      213: 3009255200555526856
+    second: skeleton spritesheet calciumtrice_5
+  - first:
+      213: 4091048355556290995
+    second: skeleton spritesheet calciumtrice_6
+  - first:
+      213: -1770105043564739451
+    second: skeleton spritesheet calciumtrice_7
+  - first:
+      213: -3690178224869646872
+    second: skeleton spritesheet calciumtrice_8
+  - first:
+      213: -3175073451618837742
+    second: skeleton spritesheet calciumtrice_9
+  - first:
+      213: 9044120766104339449
+    second: skeleton spritesheet calciumtrice_10
+  - first:
+      213: 2708982703023277729
+    second: skeleton spritesheet calciumtrice_11
+  - first:
+      213: -5093900969193418397
+    second: skeleton spritesheet calciumtrice_12
+  - first:
+      213: 7974734463731685214
+    second: skeleton spritesheet calciumtrice_13
+  - first:
+      213: -1334866688612030346
+    second: skeleton spritesheet calciumtrice_14
+  - first:
+      213: 2541916593511634633
+    second: skeleton spritesheet calciumtrice_15
+  - first:
+      213: 4982881175598626370
+    second: skeleton spritesheet calciumtrice_16
+  - first:
+      213: 1870546035386317272
+    second: skeleton spritesheet calciumtrice_17
+  - first:
+      213: -6717870638318489218
+    second: skeleton spritesheet calciumtrice_18
+  - first:
+      213: 6752907931979662852
+    second: skeleton spritesheet calciumtrice_19
+  - first:
+      213: -8341111271962778727
+    second: skeleton spritesheet calciumtrice_20
+  - first:
+      213: -7458785917340066076
+    second: skeleton spritesheet calciumtrice_21
+  - first:
+      213: -8089124265170307753
+    second: skeleton spritesheet calciumtrice_22
+  - first:
+      213: -8226713006392498884
+    second: skeleton spritesheet calciumtrice_23
+  - first:
+      213: -6463286444551089061
+    second: skeleton spritesheet calciumtrice_24
+  - first:
+      213: 149802752761233266
+    second: skeleton spritesheet calciumtrice_25
+  - first:
+      213: -7184081539803899440
+    second: skeleton spritesheet calciumtrice_26
+  - first:
+      213: 988376446928712567
+    second: skeleton spritesheet calciumtrice_27
+  - first:
+      213: -6313063921771862427
+    second: skeleton spritesheet calciumtrice_28
+  - first:
+      213: 5637305917815428816
+    second: skeleton spritesheet calciumtrice_29
+  - first:
+      213: 5330731959813013233
+    second: skeleton spritesheet calciumtrice_30
+  - first:
+      213: -5191812949891175933
+    second: skeleton spritesheet calciumtrice_31
+  - first:
+      213: -1848924457120569424
+    second: skeleton spritesheet calciumtrice_32
+  - first:
+      213: -4199990087448983632
+    second: skeleton spritesheet calciumtrice_33
+  - first:
+      213: 751115895774007931
+    second: skeleton spritesheet calciumtrice_34
+  - first:
+      213: 497422811579201984
+    second: skeleton spritesheet calciumtrice_35
+  - first:
+      213: 4389909001288832791
+    second: skeleton spritesheet calciumtrice_36
+  - first:
+      213: 3041812204942787870
+    second: skeleton spritesheet calciumtrice_37
+  - first:
+      213: -5136574735640356202
+    second: skeleton spritesheet calciumtrice_38
+  - first:
+      213: -3359624253921691843
+    second: skeleton spritesheet calciumtrice_39
+  - first:
+      213: 29225533040808428
+    second: skeleton spritesheet calciumtrice_40
+  - first:
+      213: 8135935958122899441
+    second: skeleton spritesheet calciumtrice_41
+  - first:
+      213: -8780312461609543380
+    second: skeleton spritesheet calciumtrice_42
+  - first:
+      213: -5620550024976751951
+    second: skeleton spritesheet calciumtrice_43
+  - first:
+      213: -3454736923891474009
+    second: skeleton spritesheet calciumtrice_44
+  - first:
+      213: -6060042665069679523
+    second: skeleton spritesheet calciumtrice_45
+  - first:
+      213: -9184700427447512471
+    second: skeleton spritesheet calciumtrice_46
+  - first:
+      213: -3635147875026706108
+    second: skeleton spritesheet calciumtrice_47
+  - first:
+      213: 676907542227843096
+    second: skeleton spritesheet calciumtrice_48
+  - first:
+      213: -5529388221488576254
+    second: skeleton spritesheet calciumtrice_49
+  - first:
+      213: 4647215481784097497
+    second: skeleton spritesheet calciumtrice_50
+  - first:
+      213: -8068617672346075345
+    second: skeleton spritesheet calciumtrice_51
+  - first:
+      213: -1316345534244757980
+    second: skelli_0
+  - first:
+      213: 4894904610473740055
+    second: skelli_1
+  - first:
+      213: 2371113730417316821
+    second: skelli_2
+  - first:
+      213: 8534763722409175217
+    second: skelli_3
+  - first:
+      213: -8456690624165922149
+    second: skelli_4
+  - first:
+      213: -5366767143015604430
+    second: skelli_5
+  - first:
+      213: -3614347654622524267
+    second: skelli_6
+  - first:
+      213: 2505271783351719678
+    second: skelli_7
+  - first:
+      213: 674876901553044449
+    second: skelli_8
+  - first:
+      213: 2125321606822641494
+    second: skelli_9
+  - first:
+      213: 8425741281458414049
+    second: skelli_10
+  - first:
+      213: -1335326281790645428
+    second: skelli_11
+  - first:
+      213: -4866608200953923540
+    second: skelli_12
+  - first:
+      213: -3188154008631494476
+    second: skelli_13
+  - first:
+      213: 4248069174176265180
+    second: skelli_14
+  - first:
+      213: -52728334782787517
+    second: skelli_15
+  - first:
+      213: -3269752495111722504
+    second: skelli_16
+  - first:
+      213: 9024253188806149810
+    second: skelli_17
+  - first:
+      213: -8889662784115075852
+    second: skelli_18
+  - first:
+      213: 6500722209931761442
+    second: skelli_19
+  - first:
+      213: -1882984790087068126
+    second: skelli_20
+  - first:
+      213: -430668079046019680
+    second: skelli_21
+  - first:
+      213: -6658445477890580446
+    second: skelli_22
+  - first:
+      213: 8640785466867089338
+    second: skelli_23
+  - first:
+      213: 4595325700748574339
+    second: skelli_24
+  - first:
+      213: -3067887970320330224
+    second: skelli_25
+  - first:
+      213: 7554638733636862327
+    second: skelli_26
+  - first:
+      213: -2290865027534793948
+    second: skelli_27
+  - first:
+      213: 7958632110936890669
+    second: skelli_28
+  - first:
+      213: 7960474820692046333
+    second: skelli_29
+  - first:
+      213: -6662457489535149792
+    second: skelli_30
+  - first:
+      213: -1777934337901051519
+    second: skelli_31
+  - first:
+      213: -872991546217311587
+    second: skelli_32
+  - first:
+      213: -7824714410722522595
+    second: skelli_33
+  - first:
+      213: -8838316554678098
+    second: skelli_34
+  - first:
+      213: 562413096606289509
+    second: skelli_35
+  - first:
+      213: 873121833896305495
+    second: skelli_36
+  - first:
+      213: 371857070101259163
+    second: skelli_37
+  - first:
+      213: -3785377086793371108
+    second: skelli_38
+  - first:
+      213: -2865941975219839155
+    second: skelli_39
+  - first:
+      213: 198968907344174988
+    second: skelli_40
+  - first:
+      213: 4783848600154213023
+    second: skelli_41
+  - first:
+      213: -2333154739009847251
+    second: skelli_42
+  - first:
+      213: 6314001077633432775
+    second: skelli_43
+  - first:
+      213: -1644587989932613887
+    second: skelli_44
+  - first:
+      213: 7938961855488658006
+    second: skelli_45
+  - first:
+      213: -2857932907609555787
+    second: skelli_46
+  - first:
+      213: -3694104773679142230
+    second: skelli_47
+  - first:
+      213: 4874494859391096937
+    second: skelli_48
+  - first:
+      213: 5264519558588229299
+    second: skelli_49
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skelli_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfabe5c79b651241878407b59bd44d3
+      internalID: -1316345534244757980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2b776f8a161af4fa367f236148d085
+      internalID: 4894904610473740055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c657009dd59f3043a0557f3d25f668a
+      internalID: 2371113730417316821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44740509544f61b48a70abb45dfeec59
+      internalID: 8534763722409175217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54aa718c85e94b54f833a17215ab3333
+      internalID: -8456690624165922149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198230dea81d3e847a57c229161ca1ba
+      internalID: -5366767143015604430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7944a15d2e778f4a9431576eab963db
+      internalID: -3614347654622524267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eb21c3e89c57048a462f553bac5003
+      internalID: 2505271783351719678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976e6ac1d6784754e9e8092ef0be2be3
+      internalID: 674876901553044449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef1b3b39625dc24395626279932206b
+      internalID: 2125321606822641494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ef5983a48d6874ba162344b975f9e4
+      internalID: 8425741281458414049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05833ffdf69ec541bcec314bb7dbd84
+      internalID: -1335326281790645428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb81bf6a6a27164a9ea441aa060895d
+      internalID: -4866608200953923540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab15ec2d9c12b74ab41bcff74e83a02
+      internalID: -3188154008631494476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6b9a90d0062b140812eeee79e94cfe
+      internalID: 4248069174176265180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d400009c9e26414faa6ec9690f3a57e
+      internalID: -52728334782787517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5682c43786eee24894824e591c313d8
+      internalID: -3269752495111722504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c71a74377f4b1d4bb19ab4321c453e9
+      internalID: 9024253188806149810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e90153385c57cf4fbd0c13f227e1576
+      internalID: -8889662784115075852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd8c631a40f85148bb75f3b31e566f8
+      internalID: 6500722209931761442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e70babfd8cf104eaa183985e5cd755
+      internalID: -1882984790087068126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35049e9576a10074bbb4e3fa8cc59ac7
+      internalID: -430668079046019680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0832082ad843c34c8090f618b011bb8
+      internalID: -6658445477890580446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29db82f5c606124baa5a9a86b269732
+      internalID: 8640785466867089338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c5935922c39704f944366fe7371431
+      internalID: 4595325700748574339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85461959a6705ab4a8f55bbbda91b466
+      internalID: -3067887970320330224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d266a3841765b547bd6cc7f42cf84b6
+      internalID: 7554638733636862327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f5162d38462834786facba60b79ca9
+      internalID: -2290865027534793948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1663ab7a595514ea1b78128bbf692b
+      internalID: 7958632110936890669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1241ebab507f94fb5f006e186aa1a7
+      internalID: 7960474820692046333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94a242feae33cb41b12400a1019d824
+      internalID: -6662457489535149792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4932cf17440d7d4597e56538187fed0
+      internalID: -1777934337901051519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26025c89ef78234c8c2fd340b5bf47d
+      internalID: -872991546217311587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247d5ed1c15861744a213561557dd41c
+      internalID: -7824714410722522595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d623762494e27d54a9d1fe6b059b290c
+      internalID: -8838316554678098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87b4fe114b1fda47822f82f0427e921
+      internalID: 562413096606289509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be51aaa4a8b58e14dbdb5f8157320be0
+      internalID: 873121833896305495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5798c2ec026ff4090f550427f99b62
+      internalID: 371857070101259163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a9b18be36dc3e4ea4b0c73eea7d2b0
+      internalID: -3785377086793371108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df35d781aaadd8409caacb3e609f913
+      internalID: -2865941975219839155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f110a4bd5b06b4fa433112a3483a6e
+      internalID: 198968907344174988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc95d0c356706b4fb105aa8bd2257f0
+      internalID: 4783848600154213023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fed235270c878d4b8960ca1324d9878
+      internalID: -2333154739009847251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303431032f88d1e419b709725db09a06
+      internalID: 6314001077633432775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9339295a41bf83b47b6330b8d96b35dc
+      internalID: -1644587989932613887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db241774c45be343886f075876434cf
+      internalID: 7938961855488658006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787e9d7cb4f10a74c8b6932928c9d6f4
+      internalID: -2857932907609555787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae4ed70a649e844da8ced6467ffcf11
+      internalID: -3694104773679142230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd54a3e5e2e7a14b920965d92da74b8
+      internalID: 4874494859391096937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skelli_49
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56edd0e040d86de4a83a7d9a9707b52f
+      internalID: 5264519558588229299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 27d638372573bb1458d0b22c32acefc0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

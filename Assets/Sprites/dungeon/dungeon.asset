@@ -1,0 +1,8327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &-1528911131048523318
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+  m_Name: dungeon
+  m_EditorClassIdentifier: 
+  hashCode: 1399927580
+  material: {fileID: -1528911131048523318}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 0
+    y: 544
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_0
+    hashCode: -192254189
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3348532550563196407, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 1
+    x: 16
+    y: 544
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_1
+    hashCode: -192254190
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7726447682282358601, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 2
+    x: 32
+    y: 544
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_2
+    hashCode: -192254191
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6742715835338597436, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 3
+    x: 48
+    y: 544
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_3
+    hashCode: -192254192
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7229037912106761437, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 4
+    x: 0
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_4
+    hashCode: -192254185
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 278135595336851989, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 5
+    x: 16
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_5
+    hashCode: -192254186
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3416553326990366869, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 6
+    x: 32
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_6
+    hashCode: -192254187
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7406941843746067170, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 7
+    x: 48
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_7
+    hashCode: -192254188
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2242619169769190086, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 8
+    x: 64
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_8
+    hashCode: -192254181
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -810218033150052672, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 9
+    x: 80
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_9
+    hashCode: -192254182
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2476339019224497277, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 10
+    x: 96
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_10
+    hashCode: -2049420958
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3196778635232569586, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 11
+    x: 112
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_11
+    hashCode: -2049420957
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3296162337194205346, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 12
+    x: 128
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_12
+    hashCode: -2049420960
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8739487802328733786, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 13
+    x: 144
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_13
+    hashCode: -2049420959
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6060065955147336232, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 14
+    x: 160
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_14
+    hashCode: -2049420954
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6324554751270841908, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 15
+    x: 176
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_15
+    hashCode: -2049420953
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7633674121813366095, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 16
+    x: 192
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_16
+    hashCode: -2049420956
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4772826666308530076, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 17
+    x: 208
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_17
+    hashCode: -2049420955
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5272571809522784344, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 18
+    x: 224
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_18
+    hashCode: -2049420950
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4729289724701170144, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 19
+    x: 240
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_19
+    hashCode: -2049420949
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7965514535273772621, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 20
+    x: 256
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_20
+    hashCode: -2049421055
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5006723422743072756, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 21
+    x: 272
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_21
+    hashCode: -2049421056
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5776516717020305476, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 22
+    x: 288
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_22
+    hashCode: -2049421053
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3476656387692287871, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 23
+    x: 304
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_23
+    hashCode: -2049421054
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2331554871044106673, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 24
+    x: 320
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_24
+    hashCode: -2049421051
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8412020563072076687, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 25
+    x: 336
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_25
+    hashCode: -2049421052
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2540671674020590549, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 26
+    x: 352
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_26
+    hashCode: -2049421049
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2842149653976320316, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 27
+    x: 368
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_27
+    hashCode: -2049421050
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8540470742008584586, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 28
+    x: 384
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_28
+    hashCode: -2049421047
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1863433570719635644, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 29
+    x: 400
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_29
+    hashCode: -2049421048
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2880359873520428732, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 30
+    x: 416
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_30
+    hashCode: -2049421024
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7714315986660594250, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 31
+    x: 432
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_31
+    hashCode: -2049421023
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7211279699522431103, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 32
+    x: 448
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_32
+    hashCode: -2049421022
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1140173044209843537, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 33
+    x: 464
+    y: 528
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_33
+    hashCode: -2049421021
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -549568378391585935, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 34
+    x: 0
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_34
+    hashCode: -2049421020
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3674325053362866831, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 35
+    x: 16
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_35
+    hashCode: -2049421019
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8452373032276548903, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 36
+    x: 32
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_36
+    hashCode: -2049421018
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5408676383573947534, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 37
+    x: 48
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_37
+    hashCode: -2049421017
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7864989968503399987, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 38
+    x: 64
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_38
+    hashCode: -2049421016
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1086813992769815296, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 39
+    x: 80
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_39
+    hashCode: -2049421015
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3864198993512430318, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 40
+    x: 96
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_40
+    hashCode: -2049420857
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4307983360553655193, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 41
+    x: 112
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_41
+    hashCode: -2049420858
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4349187890087424563, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 42
+    x: 128
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_42
+    hashCode: -2049420859
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2849744036736907865, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 43
+    x: 144
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_43
+    hashCode: -2049420860
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 313669419365325154, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 44
+    x: 160
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_44
+    hashCode: -2049420861
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7539144472011805916, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 45
+    x: 176
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_45
+    hashCode: -2049420862
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3211298260870552322, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 46
+    x: 192
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_46
+    hashCode: -2049420863
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7315061972232225518, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 47
+    x: 208
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_47
+    hashCode: -2049420864
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7894666673253388013, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 48
+    x: 224
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_48
+    hashCode: -2049420849
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7629352087769237206, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 49
+    x: 240
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_49
+    hashCode: -2049420850
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5025005054470968012, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 50
+    x: 256
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_50
+    hashCode: -2049420826
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8456531554249524445, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 51
+    x: 272
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_51
+    hashCode: -2049420825
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4699288708488249002, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 52
+    x: 288
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_52
+    hashCode: -2049420828
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3944884409414773403, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 53
+    x: 304
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_53
+    hashCode: -2049420827
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6332537080859979533, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 54
+    x: 320
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_54
+    hashCode: -2049420830
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1579310463816421541, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 55
+    x: 336
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_55
+    hashCode: -2049420829
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5197926503832169157, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 56
+    x: 352
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_56
+    hashCode: -2049420832
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7225861581374311328, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 57
+    x: 368
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_57
+    hashCode: -2049420831
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4848741509730948077, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 58
+    x: 384
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_58
+    hashCode: -2049420818
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3995669991088979943, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 59
+    x: 400
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_59
+    hashCode: -2049420817
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6353779509820807081, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 60
+    x: 416
+    y: 512
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_60
+    hashCode: -2049420923
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2837067999455112299, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 61
+    x: 0
+    y: 496
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_61
+    hashCode: -2049420924
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4126188709867194635, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 62
+    x: 16
+    y: 496
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_62
+    hashCode: -2049420921
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1708765030248081679, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 63
+    x: 32
+    y: 496
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_63
+    hashCode: -2049420922
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3341403740912984309, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 64
+    x: 0
+    y: 480
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_64
+    hashCode: -2049420927
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3855645436354619905, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 65
+    x: 16
+    y: 480
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_65
+    hashCode: -2049420928
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1229683142288678360, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 66
+    x: 32
+    y: 480
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_66
+    hashCode: -2049420925
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4475412366163166507, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 67
+    x: 48
+    y: 480
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_67
+    hashCode: -2049420926
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 585032713330449029, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 68
+    x: 64
+    y: 480
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_68
+    hashCode: -2049420915
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5668875124987611963, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 69
+    x: 80
+    y: 480
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_69
+    hashCode: -2049420916
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5447100731207991913, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 70
+    x: 96
+    y: 480
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_70
+    hashCode: -2049420892
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1276230574591021024, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 71
+    x: 112
+    y: 480
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_71
+    hashCode: -2049420891
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7246777234065611733, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 72
+    x: 128
+    y: 480
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_72
+    hashCode: -2049420890
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5102552737244170994, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 73
+    x: 0
+    y: 464
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_73
+    hashCode: -2049420889
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5924660796880255284, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 74
+    x: 16
+    y: 464
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_74
+    hashCode: -2049420896
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3035182546318507450, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 75
+    x: 32
+    y: 464
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_75
+    hashCode: -2049420895
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5141651550271583395, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 76
+    x: 48
+    y: 464
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_76
+    hashCode: -2049420894
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4732733875575340328, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 77
+    x: 64
+    y: 464
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_77
+    hashCode: -2049420893
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -910547180950676083, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 78
+    x: 80
+    y: 464
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_78
+    hashCode: -2049420884
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2020242409346386312, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 79
+    x: 96
+    y: 464
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_79
+    hashCode: -2049420883
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7353646203669991607, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 80
+    x: 112
+    y: 464
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_80
+    hashCode: -2049420725
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1670480034134998854, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 81
+    x: 128
+    y: 464
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_81
+    hashCode: -2049420726
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7181556930308966817, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 82
+    x: 0
+    y: 448
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_82
+    hashCode: -2049420727
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5463305010813461011, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 83
+    x: 16
+    y: 448
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_83
+    hashCode: -2049420728
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1182983010339396796, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 84
+    x: 32
+    y: 448
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_84
+    hashCode: -2049420721
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5076998348338306328, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 85
+    x: 0
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_85
+    hashCode: -2049420722
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8128921428124959393, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 86
+    x: 16
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_86
+    hashCode: -2049420723
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3232180702778489246, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 87
+    x: 32
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_87
+    hashCode: -2049420724
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7934343669511227707, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 88
+    x: 48
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_88
+    hashCode: -2049420733
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -597981942327878887, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 89
+    x: 64
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_89
+    hashCode: -2049420734
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8744076753487723767, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 90
+    x: 80
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_90
+    hashCode: -2049420694
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7311421992730488651, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 91
+    x: 96
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_91
+    hashCode: -2049420693
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8201549440825881206, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 92
+    x: 112
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_92
+    hashCode: -2049420696
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6555050760711319511, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 93
+    x: 128
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_93
+    hashCode: -2049420695
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2528981364944295987, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 94
+    x: 144
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_94
+    hashCode: -2049420690
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -248512161167664867, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 95
+    x: 160
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_95
+    hashCode: -2049420689
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2775604605821565932, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 96
+    x: 176
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_96
+    hashCode: -2049420692
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8210987299791612023, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 97
+    x: 192
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_97
+    hashCode: -2049420691
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -277675770364147502, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 98
+    x: 208
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_98
+    hashCode: -2049420702
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5019254671810250931, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 99
+    x: 224
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_99
+    hashCode: -2049420701
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 155410129978136549, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 100
+    x: 240
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_100
+    hashCode: 1088585106
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3982953154436608487, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 101
+    x: 256
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_101
+    hashCode: 1088585107
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6360937745187901674, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 102
+    x: 272
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_102
+    hashCode: 1088585104
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -118486604675081969, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 103
+    x: 288
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_103
+    hashCode: 1088585105
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5534952236025908119, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 104
+    x: 304
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_104
+    hashCode: 1088585110
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -364090565672636624, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 105
+    x: 320
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_105
+    hashCode: 1088585111
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3610211561472424912, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 106
+    x: 336
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_106
+    hashCode: 1088585108
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2922597279254187806, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 107
+    x: 352
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_107
+    hashCode: 1088585109
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7985266749895722627, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 108
+    x: 368
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_108
+    hashCode: 1088585114
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3920698384757381548, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 109
+    x: 384
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_109
+    hashCode: 1088585115
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2638435406018723556, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 110
+    x: 400
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_110
+    hashCode: 1088585203
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4428194978871957011, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 111
+    x: 416
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_111
+    hashCode: 1088585202
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6396649096270540920, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 112
+    x: 432
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_112
+    hashCode: 1088585201
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5416680213542065278, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 113
+    x: 448
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_113
+    hashCode: 1088585200
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5596691142945164046, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 114
+    x: 464
+    y: 432
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_114
+    hashCode: 1088585207
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2219808455859375865, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 115
+    x: 0
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_115
+    hashCode: 1088585206
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3532864033279917811, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 116
+    x: 16
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_116
+    hashCode: 1088585205
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3367335196024978825, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 117
+    x: 32
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_117
+    hashCode: 1088585204
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -907661350899698327, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 118
+    x: 48
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_118
+    hashCode: 1088585211
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -608488696056050704, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 119
+    x: 64
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_119
+    hashCode: 1088585210
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2632156337207770137, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 120
+    x: 80
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_120
+    hashCode: 1088585040
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2409202090858134512, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 121
+    x: 96
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_121
+    hashCode: 1088585041
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 758631390480396827, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 122
+    x: 112
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_122
+    hashCode: 1088585042
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2747526914087201714, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 123
+    x: 128
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_123
+    hashCode: 1088585043
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4321067004600056426, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 124
+    x: 144
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_124
+    hashCode: 1088585044
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2020668482210702954, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 125
+    x: 160
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_125
+    hashCode: 1088585045
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7366873645686106696, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 126
+    x: 176
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_126
+    hashCode: 1088585046
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5079413647318681603, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 127
+    x: 192
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_127
+    hashCode: 1088585047
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7663945310667846594, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 128
+    x: 208
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_128
+    hashCode: 1088585048
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4867425069773029636, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 129
+    x: 224
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_129
+    hashCode: 1088585049
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -535315996892595583, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 130
+    x: 240
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_130
+    hashCode: 1088585137
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -930446550749210270, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 131
+    x: 256
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_131
+    hashCode: 1088585136
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4986856882163024817, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 132
+    x: 272
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_132
+    hashCode: 1088585139
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 327743460176631125, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 133
+    x: 288
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_133
+    hashCode: 1088585138
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3491985059596959804, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 134
+    x: 304
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_134
+    hashCode: 1088585141
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8144751938404241121, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 135
+    x: 320
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_135
+    hashCode: 1088585140
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5576777304839105509, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 136
+    x: 336
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_136
+    hashCode: 1088585143
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1202912305372466761, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 137
+    x: 352
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_137
+    hashCode: 1088585142
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1751075747381755914, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 138
+    x: 368
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_138
+    hashCode: 1088585145
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6461153568461672378, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 139
+    x: 384
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_139
+    hashCode: 1088585144
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4639957398092799802, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 140
+    x: 400
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_140
+    hashCode: 1088585238
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3191263657667717835, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 141
+    x: 416
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_141
+    hashCode: 1088585239
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1679548001278538860, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 142
+    x: 432
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_142
+    hashCode: 1088585236
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1521377951843793056, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 143
+    x: 448
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_143
+    hashCode: 1088585237
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1620893139436827346, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 144
+    x: 464
+    y: 416
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_144
+    hashCode: 1088585234
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5278721687575318638, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 145
+    x: 0
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_145
+    hashCode: 1088585235
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1147117843262339264, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 146
+    x: 16
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_146
+    hashCode: 1088585232
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1859885152939473534, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 147
+    x: 32
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_147
+    hashCode: 1088585233
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2455885382702663058, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 148
+    x: 48
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_148
+    hashCode: 1088585246
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8122324900821028851, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 149
+    x: 64
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_149
+    hashCode: 1088585247
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6216148207056156184, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 150
+    x: 80
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_150
+    hashCode: 1088585335
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 738781337095402683, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 151
+    x: 96
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_151
+    hashCode: 1088585334
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6611311266624364387, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 152
+    x: 112
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_152
+    hashCode: 1088585333
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8025092405654878039, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 153
+    x: 128
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_153
+    hashCode: 1088585332
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8730600146630255954, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 154
+    x: 144
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_154
+    hashCode: 1088585331
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7588818635035079303, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 155
+    x: 160
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_155
+    hashCode: 1088585330
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3327159073982543304, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 156
+    x: 176
+    y: 400
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_156
+    hashCode: 1088585329
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7665240468201835063, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 157
+    x: 0
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_157
+    hashCode: 1088585328
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -323160581865228875, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 158
+    x: 16
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_158
+    hashCode: 1088585343
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -479094051085798602, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 159
+    x: 32
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_159
+    hashCode: 1088585342
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8233244018097608249, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 160
+    x: 48
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_160
+    hashCode: 1088585172
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -720595831164631806, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 161
+    x: 64
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_161
+    hashCode: 1088585173
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1148178088780919819, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 162
+    x: 112
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_162
+    hashCode: 1088585174
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7891716286832977409, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 163
+    x: 128
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_163
+    hashCode: 1088585175
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -130828812875449483, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 164
+    x: 144
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_164
+    hashCode: 1088585168
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8579595620507765415, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 165
+    x: 160
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_165
+    hashCode: 1088585169
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -354353945745669817, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 166
+    x: 176
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_166
+    hashCode: 1088585170
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5367401047610126840, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 167
+    x: 288
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_167
+    hashCode: 1088585171
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -178459579625099834, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 168
+    x: 304
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_168
+    hashCode: 1088585180
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2821199013577343287, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 169
+    x: 320
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_169
+    hashCode: 1088585181
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3546237243293973333, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 170
+    x: 336
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_170
+    hashCode: 1088585269
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -840968490793881995, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 171
+    x: 352
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_171
+    hashCode: 1088585268
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5247217530738408666, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 172
+    x: 368
+    y: 384
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_172
+    hashCode: 1088585271
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3852010020733990604, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 173
+    x: 0
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_173
+    hashCode: 1088585270
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7062247969402774149, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 174
+    x: 16
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_174
+    hashCode: 1088585265
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3510318289804941409, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 175
+    x: 32
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_175
+    hashCode: 1088585264
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1119624462368913749, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 176
+    x: 48
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_176
+    hashCode: 1088585267
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8838169667702614662, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 177
+    x: 64
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_177
+    hashCode: 1088585266
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8925898095676928343, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 178
+    x: 80
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_178
+    hashCode: 1088585277
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8456801983701386427, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 179
+    x: 112
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_179
+    hashCode: 1088585276
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2100227350779960941, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 180
+    x: 128
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_180
+    hashCode: 1088585370
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7216613366167946352, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 181
+    x: 144
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_181
+    hashCode: 1088585371
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4769025673350223744, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 182
+    x: 160
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_182
+    hashCode: 1088585368
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6891283304546721503, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 183
+    x: 176
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_183
+    hashCode: 1088585369
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2474600485131368923, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 184
+    x: 192
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_184
+    hashCode: 1088585374
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -753957194404538279, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 185
+    x: 208
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_185
+    hashCode: 1088585375
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6883260279558660506, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 186
+    x: 224
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_186
+    hashCode: 1088585372
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4448902632292335781, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 187
+    x: 240
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_187
+    hashCode: 1088585373
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6066612413859565457, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 188
+    x: 256
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_188
+    hashCode: 1088585362
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8830144743622897674, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 189
+    x: 288
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_189
+    hashCode: 1088585363
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6636322724416428978, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 190
+    x: 304
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_190
+    hashCode: 1088585467
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2105262084097158385, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 191
+    x: 320
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_191
+    hashCode: 1088585466
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6975984452164239615, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 192
+    x: 336
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_192
+    hashCode: 1088585465
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4643327461063052979, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 193
+    x: 352
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_193
+    hashCode: 1088585464
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 242477745445040105, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 194
+    x: 368
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_194
+    hashCode: 1088585471
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1483559064528246288, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 195
+    x: 384
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_195
+    hashCode: 1088585470
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6173841220022114344, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 196
+    x: 400
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_196
+    hashCode: 1088585469
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5607605044514383822, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 197
+    x: 416
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_197
+    hashCode: 1088585468
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3379393322679519116, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 198
+    x: 432
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_198
+    hashCode: 1088585459
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1435729940210864520, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 199
+    x: 448
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_199
+    hashCode: 1088585458
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6482374722227554074, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 200
+    x: 464
+    y: 368
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_200
+    hashCode: 1088581905
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2498676901305496190, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 201
+    x: 0
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_201
+    hashCode: 1088581904
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4922558961281654948, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 202
+    x: 16
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_202
+    hashCode: 1088581907
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1756259025848019955, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 203
+    x: 32
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_203
+    hashCode: 1088581906
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4487300126629350809, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 204
+    x: 48
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_204
+    hashCode: 1088581909
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8333334535770877017, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 205
+    x: 64
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_205
+    hashCode: 1088581908
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5157886201736579542, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 206
+    x: 80
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_206
+    hashCode: 1088581911
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1985560544228736487, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 207
+    x: 112
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_207
+    hashCode: 1088581910
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3060552617516246850, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 208
+    x: 128
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_208
+    hashCode: 1088581913
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6757927685334143538, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 209
+    x: 144
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_209
+    hashCode: 1088581912
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7722844580990295718, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 210
+    x: 160
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_210
+    hashCode: 1088581936
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7355232161432518721, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 211
+    x: 176
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_211
+    hashCode: 1088581937
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4739800003755654488, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 212
+    x: 192
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_212
+    hashCode: 1088581938
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8013539464040985825, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 213
+    x: 208
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_213
+    hashCode: 1088581939
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6611733670115165074, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 214
+    x: 224
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_214
+    hashCode: 1088581940
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2022881698978761415, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 215
+    x: 240
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_215
+    hashCode: 1088581941
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4585856673216453166, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 216
+    x: 256
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_216
+    hashCode: 1088581942
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 991713196115357563, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 217
+    x: 288
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_217
+    hashCode: 1088581943
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 435916053172966283, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 218
+    x: 304
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_218
+    hashCode: 1088581944
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5530905916699684157, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 219
+    x: 320
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_219
+    hashCode: 1088581945
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5979032410180834339, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 220
+    x: 336
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_220
+    hashCode: 1088581971
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1233374527757484898, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 221
+    x: 352
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_221
+    hashCode: 1088581970
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -417231121722926203, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 222
+    x: 368
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_222
+    hashCode: 1088581969
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6378936499957622399, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 223
+    x: 384
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_223
+    hashCode: 1088581968
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6726913913473496751, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 224
+    x: 400
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_224
+    hashCode: 1088581975
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3000203799512732241, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 225
+    x: 416
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_225
+    hashCode: 1088581974
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7730296357592156854, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 226
+    x: 432
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_226
+    hashCode: 1088581973
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5403246645196608952, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 227
+    x: 448
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_227
+    hashCode: 1088581972
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5275256969969492590, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 228
+    x: 464
+    y: 352
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_228
+    hashCode: 1088581979
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4462326931529611563, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 229
+    x: 112
+    y: 336
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_229
+    hashCode: 1088581978
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 320415799070084530, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 230
+    x: 128
+    y: 336
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_230
+    hashCode: 1088582002
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6488153533718957178, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 231
+    x: 144
+    y: 336
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_231
+    hashCode: 1088582003
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6868641248186401484, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 232
+    x: 160
+    y: 336
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_232
+    hashCode: 1088582000
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -141062753001682416, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 233
+    x: 176
+    y: 336
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_233
+    hashCode: 1088582001
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7842337558316499803, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 234
+    x: 192
+    y: 336
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_234
+    hashCode: 1088582006
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3390432308316874340, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 235
+    x: 208
+    y: 336
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_235
+    hashCode: 1088582007
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8437892139460276168, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 236
+    x: 224
+    y: 336
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_236
+    hashCode: 1088582004
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1750796625790197631, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 237
+    x: 240
+    y: 336
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_237
+    hashCode: 1088582005
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6983809003795611150, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 238
+    x: 256
+    y: 336
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_238
+    hashCode: 1088582010
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5974197067390351807, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 239
+    x: 0
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_239
+    hashCode: 1088582011
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8912827833697977526, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 240
+    x: 16
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_240
+    hashCode: 1088582037
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5434816187088855336, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 241
+    x: 32
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_241
+    hashCode: 1088582036
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7401341099002811717, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 242
+    x: 48
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_242
+    hashCode: 1088582039
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4007746379817948105, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 243
+    x: 64
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_243
+    hashCode: 1088582038
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8698734144689774689, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 244
+    x: 96
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_244
+    hashCode: 1088582033
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4888446247512320167, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 245
+    x: 112
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_245
+    hashCode: 1088582032
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8631572112864098566, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 246
+    x: 128
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_246
+    hashCode: 1088582035
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1761380330614343063, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 247
+    x: 144
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_247
+    hashCode: 1088582034
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1067283897279639473, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 248
+    x: 160
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_248
+    hashCode: 1088582045
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7114576786259863397, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 249
+    x: 176
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_249
+    hashCode: 1088582044
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8016020100734188598, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 250
+    x: 208
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_250
+    hashCode: 1088582068
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7380971280864987191, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 251
+    x: 224
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_251
+    hashCode: 1088582069
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5208864746273042551, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 252
+    x: 240
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_252
+    hashCode: 1088582070
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6307062141940394759, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 253
+    x: 256
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_253
+    hashCode: 1088582071
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 830368438352194887, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 254
+    x: 288
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_254
+    hashCode: 1088582064
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7831626756319257322, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 255
+    x: 304
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_255
+    hashCode: 1088582065
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7210297596261762395, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 256
+    x: 320
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_256
+    hashCode: 1088582066
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5576747990492976176, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 257
+    x: 336
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_257
+    hashCode: 1088582067
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5181512623469091857, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 258
+    x: 352
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_258
+    hashCode: 1088582076
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8421561891600223426, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 259
+    x: 368
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_259
+    hashCode: 1088582077
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6587551530249727217, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 260
+    x: 384
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_260
+    hashCode: 1088582103
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 301727483630377715, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 261
+    x: 400
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_261
+    hashCode: 1088582102
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7914411016158188172, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 262
+    x: 416
+    y: 320
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_262
+    hashCode: 1088582101
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1248700109172381605, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 263
+    x: 0
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_263
+    hashCode: 1088582100
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -523481209014826070, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 264
+    x: 16
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_264
+    hashCode: 1088582099
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2121248770801793950, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 265
+    x: 96
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_265
+    hashCode: 1088582098
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1210022879816632748, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 266
+    x: 112
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_266
+    hashCode: 1088582097
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7454771356643077609, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 267
+    x: 128
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_267
+    hashCode: 1088582096
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1265334296718843919, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 268
+    x: 208
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_268
+    hashCode: 1088582111
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5601992329902378236, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 269
+    x: 224
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_269
+    hashCode: 1088582110
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7652952547876575534, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 270
+    x: 240
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_270
+    hashCode: 1088582134
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2337206732653494200, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 271
+    x: 256
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_271
+    hashCode: 1088582135
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 795676933303752298, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 272
+    x: 288
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_272
+    hashCode: 1088582132
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8646006462359394131, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 273
+    x: 304
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_273
+    hashCode: 1088582133
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -732540126007729510, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 274
+    x: 368
+    y: 304
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_274
+    hashCode: 1088582130
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3734240539231355180, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 275
+    x: 0
+    y: 288
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_275
+    hashCode: 1088582131
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2764671800879504293, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 276
+    x: 16
+    y: 288
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_276
+    hashCode: 1088582128
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3628741780850960840, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 277
+    x: 208
+    y: 288
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_277
+    hashCode: 1088582129
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3967752663925417011, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 278
+    x: 224
+    y: 288
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_278
+    hashCode: 1088582142
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4111261319033800088, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 279
+    x: 240
+    y: 288
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_279
+    hashCode: 1088582143
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2037952936335135354, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 280
+    x: 256
+    y: 288
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_280
+    hashCode: 1088582169
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7096666035801441206, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 281
+    x: 288
+    y: 288
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_281
+    hashCode: 1088582168
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6108229659334921041, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 282
+    x: 304
+    y: 288
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_282
+    hashCode: 1088582171
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4118290314403087212, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 283
+    x: 368
+    y: 288
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_283
+    hashCode: 1088582170
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4238240034813156277, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 284
+    x: 368
+    y: 272
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_284
+    hashCode: 1088582173
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4536663945090003121, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 285
+    x: 0
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_285
+    hashCode: 1088582172
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4000965943797958828, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 286
+    x: 16
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_286
+    hashCode: 1088582175
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3311801020340149423, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 287
+    x: 32
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_287
+    hashCode: 1088582174
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7373498857796103289, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 288
+    x: 48
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_288
+    hashCode: 1088582161
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 122284112025294132, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 289
+    x: 64
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_289
+    hashCode: 1088582160
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 230071730369710268, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 290
+    x: 160
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_290
+    hashCode: 1088582200
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 354844897468592130, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 291
+    x: 176
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_291
+    hashCode: 1088582201
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6664829606295254502, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 292
+    x: 192
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_292
+    hashCode: 1088582202
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8315520600117302255, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 293
+    x: 208
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_293
+    hashCode: 1088582203
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5331464168238372696, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 294
+    x: 240
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_294
+    hashCode: 1088582204
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 9086944345921908401, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 295
+    x: 256
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_295
+    hashCode: 1088582205
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8967636572791386095, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 296
+    x: 272
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_296
+    hashCode: 1088582206
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8129024615004012256, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 297
+    x: 288
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_297
+    hashCode: 1088582207
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7233573680699632139, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 298
+    x: 304
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_298
+    hashCode: 1088582192
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4074381083088294371, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 299
+    x: 320
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_299
+    hashCode: 1088582193
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6615151770362767586, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 300
+    x: 336
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_300
+    hashCode: 1088582928
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5060935740004781513, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 301
+    x: 352
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_301
+    hashCode: 1088582929
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1914560619937510024, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 302
+    x: 384
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_302
+    hashCode: 1088582930
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5572583795858391195, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 303
+    x: 400
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_303
+    hashCode: 1088582931
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1423620752472759562, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 304
+    x: 416
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_304
+    hashCode: 1088582932
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1655507084076679688, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 305
+    x: 432
+    y: 256
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_305
+    hashCode: 1088582933
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5483028710143006372, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 306
+    x: 0
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_306
+    hashCode: 1088582934
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -415406371423497694, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 307
+    x: 16
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_307
+    hashCode: 1088582935
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2579714230632376840, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 308
+    x: 32
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_308
+    hashCode: 1088582936
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3915389267704307497, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 309
+    x: 48
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_309
+    hashCode: 1088582937
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 320018511543853728, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 310
+    x: 64
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_310
+    hashCode: 1088583025
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6154714739903141938, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 311
+    x: 80
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_311
+    hashCode: 1088583024
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3440935870160112519, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 312
+    x: 96
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_312
+    hashCode: 1088583027
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7252339456201624465, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 313
+    x: 112
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_313
+    hashCode: 1088583026
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 357897528575275748, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 314
+    x: 128
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_314
+    hashCode: 1088583029
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8680541969570018630, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 315
+    x: 160
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_315
+    hashCode: 1088583028
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -523005652896850517, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 316
+    x: 176
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_316
+    hashCode: 1088583031
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2281853691933164854, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 317
+    x: 192
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_317
+    hashCode: 1088583030
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8344005553194044872, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 318
+    x: 208
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_318
+    hashCode: 1088583033
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6095505138950850980, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 319
+    x: 240
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_319
+    hashCode: 1088583032
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2894599735822717615, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 320
+    x: 256
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_320
+    hashCode: 1088582994
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2236055767671684905, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 321
+    x: 304
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_321
+    hashCode: 1088582995
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1133577530017135732, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 322
+    x: 320
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_322
+    hashCode: 1088582992
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5896076815977082963, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 323
+    x: 336
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_323
+    hashCode: 1088582993
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 861106365459339376, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 324
+    x: 352
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_324
+    hashCode: 1088582998
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8245065783686061107, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 325
+    x: 384
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_325
+    hashCode: 1088582999
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2276942020470178975, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 326
+    x: 400
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_326
+    hashCode: 1088582996
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7382152101653293222, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 327
+    x: 416
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_327
+    hashCode: 1088582997
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1338375748439670401, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 328
+    x: 432
+    y: 240
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_328
+    hashCode: 1088583002
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3476732696930882979, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 329
+    x: 304
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_329
+    hashCode: 1088583003
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8029986774603788644, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 330
+    x: 320
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_330
+    hashCode: 1088583091
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5011243606088318768, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 331
+    x: 336
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_331
+    hashCode: 1088583090
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1574246833804326025, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 332
+    x: 352
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_332
+    hashCode: 1088583089
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 9148430086405569645, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 333
+    x: 384
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_333
+    hashCode: 1088583088
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3890228560438233605, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 334
+    x: 400
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_334
+    hashCode: 1088583095
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -703668407969351785, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 335
+    x: 416
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_335
+    hashCode: 1088583094
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3704195381907948757, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 336
+    x: 432
+    y: 224
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_336
+    hashCode: 1088583093
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 477142540428933520, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 337
+    x: 0
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_337
+    hashCode: 1088583092
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6273502456099130067, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 338
+    x: 16
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_338
+    hashCode: 1088583099
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4197994196516700625, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 339
+    x: 32
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_339
+    hashCode: 1088583098
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -773433238410078311, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 340
+    x: 144
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_340
+    hashCode: 1088583060
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8150959230869113230, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 341
+    x: 160
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_341
+    hashCode: 1088583061
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5407408238011343648, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 342
+    x: 176
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_342
+    hashCode: 1088583062
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1176317372683007360, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 343
+    x: 192
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_343
+    hashCode: 1088583063
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5388500678024030256, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 344
+    x: 224
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_344
+    hashCode: 1088583056
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1533643153026889759, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 345
+    x: 240
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_345
+    hashCode: 1088583057
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5829366817864431140, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 346
+    x: 256
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_346
+    hashCode: 1088583058
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1232361483752716583, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 347
+    x: 272
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_347
+    hashCode: 1088583059
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7709935478566823476, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 348
+    x: 336
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_348
+    hashCode: 1088583068
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3885534638613509795, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 349
+    x: 352
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_349
+    hashCode: 1088583069
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6385702585589304869, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 350
+    x: 368
+    y: 208
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_350
+    hashCode: 1088583157
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3415586498341874238, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 351
+    x: 0
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_351
+    hashCode: 1088583156
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1385731096655632322, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 352
+    x: 16
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_352
+    hashCode: 1088583159
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5334889076930521091, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 353
+    x: 32
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_353
+    hashCode: 1088583158
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6377487134354431205, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 354
+    x: 48
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_354
+    hashCode: 1088583153
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1064191639594727978, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 355
+    x: 64
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_355
+    hashCode: 1088583152
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6457646768357036961, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 356
+    x: 80
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_356
+    hashCode: 1088583155
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2428998994137045649, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 357
+    x: 96
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_357
+    hashCode: 1088583154
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6697191786119052070, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 358
+    x: 112
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_358
+    hashCode: 1088583165
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6486711591170078596, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 359
+    x: 144
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_359
+    hashCode: 1088583164
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5681637756181571922, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 360
+    x: 160
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_360
+    hashCode: 1088583126
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3957033081257538814, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 361
+    x: 176
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_361
+    hashCode: 1088583127
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 22117688848275050, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 362
+    x: 192
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_362
+    hashCode: 1088583124
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8096101734177318361, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 363
+    x: 224
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_363
+    hashCode: 1088583125
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5456190144402033129, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 364
+    x: 240
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_364
+    hashCode: 1088583122
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -955922803390880926, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 365
+    x: 256
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_365
+    hashCode: 1088583123
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6576236241427985337, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 366
+    x: 272
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_366
+    hashCode: 1088583120
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5978707301348792744, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 367
+    x: 288
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_367
+    hashCode: 1088583121
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2290755624910334695, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 368
+    x: 304
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_368
+    hashCode: 1088583134
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4406594243322766206, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 369
+    x: 336
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_369
+    hashCode: 1088583135
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7215668972499972929, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 370
+    x: 352
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_370
+    hashCode: 1088583223
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -648916895271523606, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 371
+    x: 368
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_371
+    hashCode: 1088583222
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1280713069146852328, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 372
+    x: 384
+    y: 192
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_372
+    hashCode: 1088583221
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5275788288582097493, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 373
+    x: 0
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_373
+    hashCode: 1088583220
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5356729993556512323, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 374
+    x: 16
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_374
+    hashCode: 1088583219
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3264372592015179765, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 375
+    x: 32
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_375
+    hashCode: 1088583218
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1759792986038998086, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 376
+    x: 48
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_376
+    hashCode: 1088583217
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6801837121209098962, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 377
+    x: 128
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_377
+    hashCode: 1088583216
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4745864376047884418, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 378
+    x: 144
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_378
+    hashCode: 1088583231
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 603817425457610847, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 379
+    x: 160
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_379
+    hashCode: 1088583230
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6816209426234220502, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 380
+    x: 176
+    y: 176
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_380
+    hashCode: 1088583192
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8451944078658370529, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 381
+    x: 0
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_381
+    hashCode: 1088583193
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7037148741593703720, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 382
+    x: 16
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_382
+    hashCode: 1088583194
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 37843538738616887, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 383
+    x: 32
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_383
+    hashCode: 1088583195
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 954411942739619693, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 384
+    x: 48
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_384
+    hashCode: 1088583196
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4322830525423429444, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 385
+    x: 64
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_385
+    hashCode: 1088583197
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6345426959677615677, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 386
+    x: 80
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_386
+    hashCode: 1088583198
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2039259664449849534, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 387
+    x: 96
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_387
+    hashCode: 1088583199
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7757189753484583740, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 388
+    x: 128
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_388
+    hashCode: 1088583184
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8323555179827489317, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 389
+    x: 144
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_389
+    hashCode: 1088583185
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 626461426458652192, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 390
+    x: 160
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_390
+    hashCode: 1088583289
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2182752514720339122, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 391
+    x: 176
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_391
+    hashCode: 1088583288
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4825574378431769521, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 392
+    x: 192
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_392
+    hashCode: 1088583291
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7414040983147562229, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 393
+    x: 208
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_393
+    hashCode: 1088583290
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1590286970138030742, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 394
+    x: 224
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_394
+    hashCode: 1088583293
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2266762053313886191, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 395
+    x: 240
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_395
+    hashCode: 1088583292
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1137899751577994015, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 396
+    x: 256
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_396
+    hashCode: 1088583295
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5012358668050745918, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 397
+    x: 272
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_397
+    hashCode: 1088583294
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7925522108793110357, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 398
+    x: 288
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_398
+    hashCode: 1088583281
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -93626265165621718, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 399
+    x: 304
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_399
+    hashCode: 1088583280
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2705804303797990425, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 400
+    x: 320
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_400
+    hashCode: 1088588439
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7510701721462744093, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 401
+    x: 336
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_401
+    hashCode: 1088588438
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3995149214788787235, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 402
+    x: 352
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_402
+    hashCode: 1088588437
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6009587942538293783, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 403
+    x: 368
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_403
+    hashCode: 1088588436
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4246245170371712766, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 404
+    x: 384
+    y: 160
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_404
+    hashCode: 1088588435
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1193367145144050814, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 405
+    x: 0
+    y: 144
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_405
+    hashCode: 1088588434
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6887195312459505407, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 406
+    x: 16
+    y: 144
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_406
+    hashCode: 1088588433
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2649380786884011215, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 407
+    x: 32
+    y: 144
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_407
+    hashCode: 1088588432
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7883965273397731894, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 408
+    x: 48
+    y: 144
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_408
+    hashCode: 1088588447
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1872131746358048843, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 409
+    x: 64
+    y: 144
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_409
+    hashCode: 1088588446
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 519780856869772643, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 410
+    x: 0
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_410
+    hashCode: 1088588470
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -9006308061745205433, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 411
+    x: 16
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_411
+    hashCode: 1088588471
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -285418669710031975, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 412
+    x: 32
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_412
+    hashCode: 1088588468
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4894110786465297845, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 413
+    x: 48
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_413
+    hashCode: 1088588469
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8254052312016205088, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 414
+    x: 64
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_414
+    hashCode: 1088588466
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6310728775542300876, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 415
+    x: 80
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_415
+    hashCode: 1088588467
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2205814538077410999, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 416
+    x: 96
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_416
+    hashCode: 1088588464
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2845472542247695222, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 417
+    x: 112
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_417
+    hashCode: 1088588465
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4262449903037235227, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 418
+    x: 128
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_418
+    hashCode: 1088588478
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7023497003514122870, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 419
+    x: 144
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_419
+    hashCode: 1088588479
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6750471272332899728, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 420
+    x: 160
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_420
+    hashCode: 1088588373
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4083098854338604394, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 421
+    x: 176
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_421
+    hashCode: 1088588372
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6436999110815904885, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 422
+    x: 192
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_422
+    hashCode: 1088588375
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7750297188469647476, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 423
+    x: 208
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_423
+    hashCode: 1088588374
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1347017891095740187, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 424
+    x: 224
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_424
+    hashCode: 1088588369
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7192555439962383046, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 425
+    x: 240
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_425
+    hashCode: 1088588368
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3400471156504568374, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 426
+    x: 256
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_426
+    hashCode: 1088588371
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6072097237662764674, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 427
+    x: 272
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_427
+    hashCode: 1088588370
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3814862927588238477, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 428
+    x: 288
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_428
+    hashCode: 1088588381
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7381130719396028776, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 429
+    x: 304
+    y: 128
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_429
+    hashCode: 1088588380
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8389405753679229071, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 430
+    x: 0
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_430
+    hashCode: 1088588404
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2632026214547741775, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 431
+    x: 16
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_431
+    hashCode: 1088588405
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4704662214485630123, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 432
+    x: 32
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_432
+    hashCode: 1088588406
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8557852599441232377, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 433
+    x: 48
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_433
+    hashCode: 1088588407
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1839215200056477154, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 434
+    x: 64
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_434
+    hashCode: 1088588400
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2559691720713344917, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 435
+    x: 80
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_435
+    hashCode: 1088588401
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8692245093278423455, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 436
+    x: 96
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_436
+    hashCode: 1088588402
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7713527517172228135, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 437
+    x: 112
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_437
+    hashCode: 1088588403
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8243794180137797459, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 438
+    x: 128
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_438
+    hashCode: 1088588412
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2255439837117920575, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 439
+    x: 144
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_439
+    hashCode: 1088588413
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7065577905438093053, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 440
+    x: 160
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_440
+    hashCode: 1088588307
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8069387589662651049, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 441
+    x: 176
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_441
+    hashCode: 1088588306
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4045731451938923054, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 442
+    x: 192
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_442
+    hashCode: 1088588305
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4466737746977536901, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 443
+    x: 208
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_443
+    hashCode: 1088588304
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5005536074337412836, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 444
+    x: 224
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_444
+    hashCode: 1088588311
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2890331115806621887, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 445
+    x: 240
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_445
+    hashCode: 1088588310
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8144068601859297167, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 446
+    x: 256
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_446
+    hashCode: 1088588309
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 199795987184440156, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 447
+    x: 272
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_447
+    hashCode: 1088588308
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -973136921444793788, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 448
+    x: 288
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_448
+    hashCode: 1088588315
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8859709605795036900, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 449
+    x: 304
+    y: 112
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_449
+    hashCode: 1088588314
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6631995308769842982, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 450
+    x: 0
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_450
+    hashCode: 1088588338
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -634812380212854034, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 451
+    x: 16
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_451
+    hashCode: 1088588339
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8746705455664942985, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 452
+    x: 32
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_452
+    hashCode: 1088588336
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4846127749781710837, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 453
+    x: 48
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_453
+    hashCode: 1088588337
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 820112724074017221, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 454
+    x: 192
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_454
+    hashCode: 1088588342
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8882029043929090142, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 455
+    x: 208
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_455
+    hashCode: 1088588343
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -140110573761243886, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 456
+    x: 224
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_456
+    hashCode: 1088588340
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4611292139230210811, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 457
+    x: 240
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_457
+    hashCode: 1088588341
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2787324129740503638, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 458
+    x: 288
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_458
+    hashCode: 1088588346
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7456874188093486040, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 459
+    x: 304
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_459
+    hashCode: 1088588347
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4022865042196244359, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 460
+    x: 320
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_460
+    hashCode: 1088588241
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7269063857168706844, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 461
+    x: 336
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_461
+    hashCode: 1088588240
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4862100233294713432, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 462
+    x: 352
+    y: 96
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_462
+    hashCode: 1088588243
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3522146916994879, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 463
+    x: 0
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_463
+    hashCode: 1088588242
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4141569016488270831, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 464
+    x: 16
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_464
+    hashCode: 1088588245
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6881084092142125303, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 465
+    x: 32
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_465
+    hashCode: 1088588244
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -30910539988732823, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 466
+    x: 48
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_466
+    hashCode: 1088588247
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1069485651815807829, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 467
+    x: 64
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_467
+    hashCode: 1088588246
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7854778971808654545, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 468
+    x: 80
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_468
+    hashCode: 1088588249
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3371127419996088835, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 469
+    x: 96
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_469
+    hashCode: 1088588248
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 9217204899582825980, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 470
+    x: 112
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_470
+    hashCode: 1088588272
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6330096455480093148, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 471
+    x: 128
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_471
+    hashCode: 1088588273
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4880447099980214040, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 472
+    x: 144
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_472
+    hashCode: 1088588274
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5230384172467135272, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 473
+    x: 160
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_473
+    hashCode: 1088588275
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5225430612243770185, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 474
+    x: 192
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_474
+    hashCode: 1088588276
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1604771150622113786, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 475
+    x: 208
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_475
+    hashCode: 1088588277
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1112993272215322910, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 476
+    x: 224
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_476
+    hashCode: 1088588278
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5526086787534258956, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 477
+    x: 240
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_477
+    hashCode: 1088588279
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4764197079135821197, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 478
+    x: 256
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_478
+    hashCode: 1088588280
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8129745745224959110, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 479
+    x: 288
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_479
+    hashCode: 1088588281
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8845250630893318422, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 480
+    x: 304
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_480
+    hashCode: 1088588703
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7779631084044735841, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 481
+    x: 320
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_481
+    hashCode: 1088588702
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8449625747315973165, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 482
+    x: 336
+    y: 80
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_482
+    hashCode: 1088588701
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4940740613309073679, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 483
+    x: 80
+    y: 64
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_483
+    hashCode: 1088588700
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8658380736545698974, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 484
+    x: 192
+    y: 64
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_484
+    hashCode: 1088588699
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5530495628197122500, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 485
+    x: 208
+    y: 64
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_485
+    hashCode: 1088588698
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5171500412666655693, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 486
+    x: 224
+    y: 64
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_486
+    hashCode: 1088588697
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3939738020485582488, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 487
+    x: 240
+    y: 64
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_487
+    hashCode: 1088588696
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2687615868997622066, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 488
+    x: 256
+    y: 64
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_488
+    hashCode: 1088588695
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8454588216337347479, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 489
+    x: 288
+    y: 64
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_489
+    hashCode: 1088588694
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6271956929299673199, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 490
+    x: 304
+    y: 64
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_490
+    hashCode: 1088588734
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -306887892753035215, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 491
+    x: 320
+    y: 64
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_491
+    hashCode: 1088588735
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3681849639984250088, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 492
+    x: 336
+    y: 64
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_492
+    hashCode: 1088588732
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -544771491457048171, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 493
+    x: 0
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_493
+    hashCode: 1088588733
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2310360319307461939, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 494
+    x: 16
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_494
+    hashCode: 1088588730
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3366764299035747603, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 495
+    x: 32
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_495
+    hashCode: 1088588731
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6007437689376026156, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 496
+    x: 48
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_496
+    hashCode: 1088588728
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 257848883215580206, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 497
+    x: 64
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_497
+    hashCode: 1088588729
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5139024786130083942, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 498
+    x: 80
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_498
+    hashCode: 1088588726
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 4308760405571130852, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 499
+    x: 112
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_499
+    hashCode: 1088588727
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8673458541278909462, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 500
+    x: 128
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_500
+    hashCode: 1088589462
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8224600047451829726, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 501
+    x: 144
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_501
+    hashCode: 1088589463
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3803915791940147085, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 502
+    x: 160
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_502
+    hashCode: 1088589460
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5026606816295477556, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 503
+    x: 176
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_503
+    hashCode: 1088589461
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7683178996477791417, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 504
+    x: 192
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_504
+    hashCode: 1088589458
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6497057153035235526, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 505
+    x: 224
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_505
+    hashCode: 1088589459
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 790163244916283816, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 506
+    x: 240
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_506
+    hashCode: 1088589456
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5497323872156294367, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 507
+    x: 256
+    y: 48
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_507
+    hashCode: 1088589457
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8157910499220966182, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 508
+    x: 0
+    y: 32
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_508
+    hashCode: 1088589470
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 469264615859937789, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 509
+    x: 16
+    y: 32
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_509
+    hashCode: 1088589471
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2411019527784363253, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 510
+    x: 112
+    y: 32
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_510
+    hashCode: 1088589559
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3590276394437536812, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 511
+    x: 128
+    y: 32
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_511
+    hashCode: 1088589558
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1389868968371668461, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 512
+    x: 144
+    y: 32
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_512
+    hashCode: 1088589557
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7372740540832064316, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 513
+    x: 160
+    y: 32
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_513
+    hashCode: 1088589556
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -9060110416342906772, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 514
+    x: 224
+    y: 32
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_514
+    hashCode: 1088589555
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5927388173249222134, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 515
+    x: 240
+    y: 32
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_515
+    hashCode: 1088589554
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1134955505029600300, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 516
+    x: 256
+    y: 32
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_516
+    hashCode: 1088589553
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5460642430969849104, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 517
+    x: 0
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_517
+    hashCode: 1088589552
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -2863212762339370095, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 518
+    x: 16
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_518
+    hashCode: 1088589567
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8748312636953679592, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 519
+    x: 32
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_519
+    hashCode: 1088589566
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3817688271260093097, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 520
+    x: 48
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_520
+    hashCode: 1088589396
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4739929066950594257, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 521
+    x: 64
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_521
+    hashCode: 1088589397
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 2809376296071025697, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 522
+    x: 80
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_522
+    hashCode: 1088589398
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1949138965465017344, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 523
+    x: 96
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_523
+    hashCode: 1088589399
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1394513479713255319, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 524
+    x: 112
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_524
+    hashCode: 1088589392
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -852457152001320962, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 525
+    x: 128
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_525
+    hashCode: 1088589393
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5458803583674240202, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 526
+    x: 144
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_526
+    hashCode: 1088589394
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 371483333546200685, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 527
+    x: 160
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_527
+    hashCode: 1088589395
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7517059849033654217, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 528
+    x: 176
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_528
+    hashCode: 1088589404
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -819993801663188118, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 529
+    x: 192
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_529
+    hashCode: 1088589405
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8782343817221854330, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 530
+    x: 208
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_530
+    hashCode: 1088589493
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7705871649382928875, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 531
+    x: 224
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_531
+    hashCode: 1088589492
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -7255718414787781188, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 532
+    x: 240
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_532
+    hashCode: 1088589495
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -9063346262212511136, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 533
+    x: 256
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_533
+    hashCode: 1088589494
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1957726408223878518, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 534
+    x: 272
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_534
+    hashCode: 1088589489
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -8563182337032068311, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 535
+    x: 288
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_535
+    hashCode: 1088589488
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 7231784311325664334, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 536
+    x: 304
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_536
+    hashCode: 1088589491
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 1171507999661417804, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 537
+    x: 320
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_537
+    hashCode: 1088589490
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4611145125810701592, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 538
+    x: 336
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_538
+    hashCode: 1088589501
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -1706921562318984057, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 539
+    x: 352
+    y: 16
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_539
+    hashCode: 1088589500
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6765107694676585992, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 540
+    x: 0
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_540
+    hashCode: 1088589330
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 9050711099634460043, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 541
+    x: 16
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_541
+    hashCode: 1088589331
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4159837030298810162, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 542
+    x: 32
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_542
+    hashCode: 1088589328
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6116191240426971493, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 543
+    x: 48
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_543
+    hashCode: 1088589329
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4894582923798517622, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 544
+    x: 64
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_544
+    hashCode: 1088589334
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 888660905880868769, guid: 1f31fecb7e5de224abbaa973cd73a1aa, type: 3}
+  - id: 545
+    x: 80
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_545
+    hashCode: 1088589335
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -6359633799318402674, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 546
+    x: 96
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_546
+    hashCode: 1088589332
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 5567285495273590506, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 547
+    x: 112
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_547
+    hashCode: 1088589333
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 8326888064259657991, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 548
+    x: 128
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_548
+    hashCode: 1088589338
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -345301734101026420, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 549
+    x: 144
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_549
+    hashCode: 1088589339
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 3323703571792893122, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 550
+    x: 160
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_550
+    hashCode: 1088589427
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: 6653208603914745024, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 551
+    x: 176
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_551
+    hashCode: 1088589426
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -3934659265834325852, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 552
+    x: 192
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_552
+    hashCode: 1088589425
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -4852356354157359434, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  - id: 553
+    x: 208
+    y: 0
+    width: 16
+    height: 16
+    xOffset: -8
+    yOffset: 8
+    xAdvance: 16
+    scale: 1
+    name: dungeon_553
+    hashCode: 1088589424
+    unicode: 0
+    pivot: {x: -8, y: 8}
+    sprite: {fileID: -5215574440687559048, guid: 1f31fecb7e5de224abbaa973cd73a1aa,
+      type: 3}
+  fallbackSpriteAssets: []
